@@ -1,0 +1,20 @@
+CREATE TABLE ola_rides (
+    "Date" TIMESTAMP,
+    "Booking_ID" VARCHAR(30) PRIMARY KEY,
+    "Booking_Status" VARCHAR(50),
+    "Customer_ID" VARCHAR(30),
+    "Vehicle_Type" VARCHAR(50),
+    "Pickup_Location" VARCHAR(100),
+    "Drop_Location" VARCHAR(100),
+    "V_TAT" FLOAT,
+    "C_TAT" FLOAT,
+    "Canceled_Rides_by_Customer" TEXT,
+    "Canceled_Rides_by_Driver" TEXT,
+    "Incomplete_Rides" VARCHAR(10),
+    "Incomplete_Rides_Reason" TEXT,
+    "Booking_Value" INT,
+    "Payment_Method" VARCHAR(50),
+    "Ride_Distance" INT,
+    "Driver_Ratings" FLOAT,
+    "Customer_Rating" FLOAT
+);
