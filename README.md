@@ -26,9 +26,9 @@ The project follows an **end-to-end data analytics workflow**, starting from raw
 
 ##  Tech Stack
 - **Python** – Data pre-processing & EDA.
-- **PostgreSQL** – Database Connection and analytics.
-- **Power BI** – Business intelligence dashboards
-- **Streamlit** – Interactive web application
+- **PostgreSQL** – Database Connection and queries retrieval.
+- **Power BI** – Business intelligence dashboards.
+- **Streamlit** – Interactive web application.
 - **Pandas & SQLAlchemy** – Data handling & DB integration segmentation for targeted strategies  
 
 ---
@@ -139,6 +139,7 @@ It reflects a real-world, industry-level data analytics workflow.
 ### 👤 Author
 **Eshani Banik**  
  Data Analyst
+
 
 
 
