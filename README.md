@@ -16,20 +16,20 @@ The project follows an **end-to-end data analytics workflow**, starting from raw
 ---
 
 ##  Business Objectives
-- Identify **ride demand patterns** and booking trends
-- Analyze **revenue distribution and payment behavior**
-- Understand **cancellation reasons** from customers and drivers
-- Evaluate **driver and customer ratings**
-- Enable **data-driven decision making** through interactive dashboards
+1. Identify **ride demand patterns** and booking trends
+2. Analyze **revenue distribution and payment behavior**
+3.  Understand **cancellation reasons** from customers and drivers.
+4.  Evaluate **driver and customer ratings**.
+5.  Enable **data-driven decision making** through interactive dashboards
 
 ---
 
-##  Business Use Cases
--  Peak demand analysis for better driver allocation  
--  Revenue analysis and pricing optimization  
--  Cancellation root-cause analysis  
-- Service quality assessment using ratings  
-- Customer segmentation for targeted strategies  
+##  Tech Stack
+- **Python** – Data pre-processing & EDA.
+- **PostgreSQL** – Database Connection and analytics.
+- **Power BI** – Business intelligence dashboards
+- **Streamlit** – Interactive web application
+- **Pandas & SQLAlchemy** – Data handling & DB integration segmentation for targeted strategies  
 
 ---
 
@@ -102,15 +102,6 @@ The dataset contains **103,024 ride records** with features such as:
 
 ---
 
-##  Tech Stack
-- **Python** – Data processing & application logic
-- **PostgreSQL** – Database & SQL analytics
-- **Power BI** – Business intelligence dashboards
-- **Streamlit** – Interactive web application
-- **Pandas & SQLAlchemy** – Data handling & DB integration
-
----
-
 ## 📁 Project Structure
 
 ```bash
@@ -148,6 +139,7 @@ It reflects a real-world, industry-level data analytics workflow.
 ### 👤 Author
 **Eshani Banik**  
  Data Analyst
+
 
 
 
